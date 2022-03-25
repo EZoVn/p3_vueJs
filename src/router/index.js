@@ -8,9 +8,9 @@ const routes = [
         component: () => import('../views/Home.vue')
     },
     {
-        path: '/test',
-        name: 'test',
-        component: () => import(/* webpackChunkName: 'LaPaletteDuGout' */'../views/LaPaletteDuGout.vue')
+        path: '/LaPaletteDuGout',
+        name: 'La Palette Du Gout',
+        component: () => import(/* webpackChunkName: 'LaPaletteDuGout' */'@/views/LaPaletteDuGout.vue')
     }
 ]
 const router = createRouter({
