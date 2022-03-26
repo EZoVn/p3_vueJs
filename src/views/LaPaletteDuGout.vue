@@ -4,7 +4,7 @@
 </script>
 <template>
     <header class="header-page">
-            <a href="index.html" class="header__return"><i class="fas fa-arrow-left"></i></a>
+            <a href="/" class="header__return"><i class="fas fa-arrow-left"></i></a>
             <a href="#"><img src="../assets/img/ohmyfood@2x.svg" alt="logo Oh my food"></a>
     </header>
     <section class="section">
@@ -75,12 +75,12 @@
             </div>
         </div>
     </section>
-    <Footer />
+    <Footer class="footer"/>
 </template>
 
 
 
-<style scoped>
+<style >
 /* scoped permet de mettre du style uniquement sur ce component */
 .menu h2 {
   font-size: 18px;

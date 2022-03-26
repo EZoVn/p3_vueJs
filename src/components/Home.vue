@@ -44,7 +44,7 @@ export default {
 
         <section id="restaurant">
             <h2>Restaurants</h2>
-            <a href="/LaPaletteDuGout">
+            <RouterLink to="/LaPaletteDuGout">
                 <Card>
                     <template #image>
                         <img src="../assets/img/paletteDuGout.jpg" alt="Restaurant la palette du goût">
@@ -52,7 +52,7 @@ export default {
                     <template #name>La palette du goût</template>
                     <template #description>Ménilmontant</template>
                 </Card>
-            </a>
+            </RouterLink>
                 <!-- <div class="card card--1">
                     <a href="la_palette_du_gout.html">
                         <img src="../assets/img/paletteDuGout.jpg" alt="photo de plat, la palette du goût">
@@ -69,7 +69,7 @@ export default {
                         </div>
                     </a>
                 </div> -->
-            <a href="/LaNoteEnchantée">
+            <RouterLink to="/LaNoteEnchantée">
                 <Card>
                     <template #image>
                         <img src="../assets/img/noteEnchantee.jpg" alt="Restaurant la note enchantée">
@@ -77,7 +77,7 @@ export default {
                     <template #name>La note enchantée</template>
                     <template #description>Charonne</template>
                 </Card>
-            </a>
+            </RouterLink>
                 <!-- <div class="card card--2">
                     <a href="la_note_enchante.html">
                         <img src="../assets/img/noteEnchantee.jpg" alt="photo de plat, la note enchantée">
@@ -94,7 +94,7 @@ export default {
                         </div>
                     </a>
                 </div> -->
-            <a href="ALaFrancaise">
+            <RouterLink to="/LaFrancaise">
                 <Card>
                     <template #image>
                         <img src="../assets/img/laFrancaise.jpg" alt="Restaurant a la Française">
@@ -102,7 +102,7 @@ export default {
                     <template #name>A la Française</template>
                     <template #description>Cité Rouge</template>
                 </Card>            
-            </a>
+            </RouterLink>
                 <!-- <div class="card card--3">
                     <a href="a_la_francaise.html">
                         <img src="../assets/img/laFrancaise.jpg" alt="photo de plat, à la française">
@@ -118,7 +118,7 @@ export default {
                         </div>
                     </a>
                 </div> -->
-            <a href="LesDélicesDeSens">
+            <RouterLink to="/LesDelicesDeSens">
                 <Card>
                     <template #image>
                         <img src="../assets/img/deliceDesSens.jpg" alt="Restaurant les délices de sens">
@@ -126,7 +126,7 @@ export default {
                     <template #name>Les délices de sens</template>
                     <template #description>Folie-méricourt</template>
                 </Card>
-            </a> 
+            </RouterLink> 
         </section>
 
             <!-- <div class="card card--4">

@@ -12,6 +12,7 @@
         </div>
     </a>
 </template>
+
 <script>
 export default {
     name: 'Menu',
