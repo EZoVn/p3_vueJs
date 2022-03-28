@@ -2,6 +2,9 @@
     import Menu from '@/components/Menu.vue';
     import Footer from '../components/Footer.vue';
 </script>
+<script>
+
+  </script>
 <template>
     <header class="header-page">
             <a href="/" class="header__return"><i class="fas fa-arrow-left"></i></a>
@@ -20,6 +23,7 @@
             <div class="menuu">
                 <div class="menu menu--1">
                     <h2>Entrées</h2>
+
                     <Menu>
                         <template #titre>Fricassée d'escargot</template>
                         <template #description>Au piment d'Espelette</template>

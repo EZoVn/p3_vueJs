@@ -15,3 +15,8 @@ import Footer from '../components/Footer.vue'
     </div>
 </template>
 
+<style>
+.header__logo {
+    text-align: center;
+}    
+</style>
